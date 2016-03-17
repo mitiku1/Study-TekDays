@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="apposit-pc" id="0" name="TekEventControllerTests" package="com.tekdays" tests="1" time="2.497" timestamp="2016-03-14T11:41:03">
+      <properties />
+
+      <testcase classname="com.tekdays.TekEventControllerTests" name="testSomething" time="2.196" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="apposit-pc" id="1" name="TekEventTests" package="com.tekdays" tests="2" time="0.794" timestamp="2016-03-14T11:41:06">
+      <properties />
+
+      <testcase classname="com.tekdays.TekEventTests" name="testToString" time="0.624" />
+
+      <testcase classname="com.tekdays.TekEventTests" name="testBootStrap" time="0.034" />
+
+      <system-out><![CDATA[--Output from testToString--
+--Output from testBootStrap--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testToString--
+--Output from testBootStrap--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="apposit-pc" id="2" name="TekUserControllerTests" package="com.tekdays" tests="1" time="0.271" timestamp="2016-03-14T11:41:07">
+      <properties />
+
+      <testcase classname="com.tekdays.TekUserControllerTests" name="testSomething" time="0.269" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="apposit-pc" id="3" name="TekUserTests" package="com.tekdays" tests="1" time="0.278" timestamp="2016-03-14T11:41:07">
+      <properties />
+
+      <testcase classname="com.tekdays.TekUserTests" name="testSomething" time="0.104" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

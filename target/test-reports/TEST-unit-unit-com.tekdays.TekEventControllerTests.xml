@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="apposit-pc" name="com.tekdays.TekEventControllerTests" tests="1" time="2.497" timestamp="2016-03-14T11:41:03">
+  <properties />
+  <testcase classname="com.tekdays.TekEventControllerTests" name="testSomething" time="2.196" />
+  <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+  <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+</testsuite>

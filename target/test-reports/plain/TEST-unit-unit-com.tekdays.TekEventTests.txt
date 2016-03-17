@@ -1,0 +1,13 @@
+Testsuite: com.tekdays.TekEventTests
+Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 0.794 sec
+------------- Standard Output ---------------
+--Output from testToString--
+--Output from testBootStrap--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testToString--
+--Output from testBootStrap--
+------------- ---------------- ---------------
+
+Testcase: testToString took 0.624 sec
+Testcase: testBootStrap took 0.034 sec
