@@ -17,6 +17,7 @@
 				
 				<li><g:link class="list" controller="dashboard" action="dashboard"
 				id="${tekEventInstance.id}"> Event Dashboard</g:link></li>
+				<li><g:volunteerButton eventId="${tekEventInstance.id}" /></li>
 			</ul>
 		</div>
 		<div id="show-tekEvent" class="content scaffold-show" role="main">
@@ -134,7 +135,6 @@
 				</li>
 				</g:if>
 
-				
 			</ol>
 			<g:form>
 				<fieldset class="buttons">

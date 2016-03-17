@@ -14,6 +14,13 @@
 			minds with common interests and passions together for the good
 			of greater geekdom!</p>
 		</div>
+		<div id="homeSearch">
+			<g:form controller="tekEvent" action="search">
+				<label>Search:</label>
+				<input id="query" type="text" name="query" />
+				<input type=submit value="Go" />
+			</g:form>
+		</div>
 		<g:organizerEvents />
 		<g:volunteerEvents />
 		<div class="homeCell">
