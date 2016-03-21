@@ -44,7 +44,9 @@ class TekDaysTagLib {
 
 	def organizerEvents = {attrs->
 		if (request.getSession(false) && session.user){
-			def events = TekEvent.findAllByOrganizer(session.user)
+			def user=session.user
+			user.save()
+			def events = TekEvent.findAllByOrganizer(user)
 			if (events){
 				out << "<div style='margin-left:25px; margin-top:25px; width:85%'>"
 				out << "<h3>Events you are organizing:</h3>"

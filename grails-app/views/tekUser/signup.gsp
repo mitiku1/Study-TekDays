@@ -13,6 +13,14 @@
 </head>
 
 <body>
+    <g:if test="${tekUserInstance}">
+        <div class="message" style="color:red">
+            <g:renderErrors bean="${tekUserInstance}"  />
+
+
+        </div>
+
+    </g:if>
     <g:form action="register">
         <table>
             <tr class="prog">
