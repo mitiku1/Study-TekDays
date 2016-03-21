@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="TekDays dev" uuid="590c4f13-c669-4d02-bd40-8073b16b6d05">
+      <user-name>root</user-name>
+      <user-password>df96dff8dfcbdfc3dfc4dfc8dfc5dfdddf94</user-password>
+      <schema-pattern>DEVDBNAME.*</schema-pattern>
+      <default-schemas>DEVDBNAME.*</default-schemas>
+    </data-source>
+  </component>
+</project>

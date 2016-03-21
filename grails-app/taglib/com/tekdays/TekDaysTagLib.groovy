@@ -17,6 +17,10 @@ class TekDaysTagLib {
 			out << "Logout </a></span>"
 		} else{
 			out << "<span style='float:right;margin-right:10px'>"
+			out << "<a href='${createLink(controller:'tekUser', action:'signup')}'>"
+			out << "Signup </a></span>"
+
+			out << "<span style='float:right;margin-right:10px'>"
 			out << "<a href='${createLink(controller:'tekUser', action:'login')}'>"
 			out << "Login </a></span>"
 		}
@@ -28,8 +32,7 @@ class TekDaysTagLib {
 		messages.each{ msg ->
 			def body = "${msg?.author} - ${msg?.subject}"
 			out << "<p style='height:35; margin-left:${indent * 20}px;'>"
-			out << "${remoteLink(action:'showDetail', id:msg.id,\
-			update:'details', body)}"
+			out << "${remoteLink(action:'showDetail', id:msg.id,update:'details', body)}"
 			out << "</p>"
 			def children = TekMessage.findAllByParent(msg)
 			if (children){

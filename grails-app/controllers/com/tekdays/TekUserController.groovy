@@ -127,4 +127,19 @@ class TekUserController {
         session.user=null
         redirect(uri:"/")
     }
+    def signup ={
+        def tekUserInstance=new TekUser()
+            [tekUserInstance: tekUserInstance]
+
+    }
+    def register={
+        def user=new TekUser(params)
+        if(!user.save(flush: true)){
+
+            render (view:"signup",model:[tekUserInstance: user])
+        }
+        session.user=user
+        flash.message = "Successfully registered with username:"+user.userName
+        redirect(uri: "/")
+    }
 }
