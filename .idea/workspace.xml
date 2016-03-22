@@ -2,29 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d68fc316-a1e1-4120-ac28-4e4424798867" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1_closure5.class" afterPath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1_closure5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BuildConfig.class" afterPath="$PROJECT_DIR$/target/classes/BuildConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/SecurityFilters$_closure1_closure2_closure3.class" afterPath="$PROJECT_DIR$/target/classes/SecurityFilters$_closure1_closure2_closure3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/SecurityFilters.class" afterPath="$PROJECT_DIR$/target/classes/SecurityFilters.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tekdays/TekDaysTagLib.class" afterPath="$PROJECT_DIR$/target/classes/com/tekdays/TekDaysTagLib.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tekdays/TekEventController.class" afterPath="$PROJECT_DIR$/target/classes/com/tekdays/TekEventController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tekdays/TekUser$__clinit__closure1.class" afterPath="$PROJECT_DIR$/target/classes/com/tekdays/TekUser$__clinit__closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tekdays/TekUser.class" afterPath="$PROJECT_DIR$/target/classes/com/tekdays/TekUser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tekdays/TekUserController$_closure3.class" afterPath="$PROJECT_DIR$/target/classes/com/tekdays/TekUserController$_closure3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tekdays/TekUserController.class" afterPath="$PROJECT_DIR$/target/classes/com/tekdays/TekUserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/SecurityFilters.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/SecurityFilters.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/taglib/com/tekdays/TekDaysTagLib.groovy" afterPath="$PROJECT_DIR$/grails-app/taglib/com/tekdays/TekDaysTagLib.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/com/tekdays/TekEventController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/com/tekdays/TekEventController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/com/tekdays/TekUser.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/com/tekdays/TekUser.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/com/tekdays/TekUserController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/com/tekdays/TekUserController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/tekUser/login.gsp" afterPath="$PROJECT_DIR$/grails-app/views/tekUser/login.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" afterPath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/tekEvent/show.gsp" afterPath="$PROJECT_DIR$/grails-app/views/tekEvent/show.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/tekUser/signup.gsp" afterPath="$PROJECT_DIR$/grails-app/views/tekUser/signup.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -82,17 +63,27 @@
       <file leaf-file-name="TekUserController.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/tekdays/TekUserController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.88" vertical-offset="2396" max-vertical-offset="2988">
-              <caret line="151" column="51" selection-start-line="151" selection-start-column="51" selection-end-line="151" selection-end-column="51" />
+            <state vertical-scroll-proportion="-12.32" vertical-offset="664" max-vertical-offset="3240">
+              <caret line="54" column="65" selection-start-line="54" selection-start-column="65" selection-end-line="54" selection-end-column="65" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TekEventController.groovy" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SponsorController.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/tekdays/SponsorController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.56" vertical-offset="192" max-vertical-offset="1944">
+              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TekEventController.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/tekdays/TekEventController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.12" vertical-offset="1888" max-vertical-offset="2232">
+            <state vertical-scroll-proportion="0.41569766" vertical-offset="1873" max-vertical-offset="2232">
               <caret line="112" column="43" selection-start-line="112" selection-start-column="43" selection-end-line="112" selection-end-column="43" />
               <folding />
             </state>
@@ -102,8 +93,8 @@
       <file leaf-file-name="TekUser.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/com/tekdays/TekUser.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.736842" vertical-offset="0" max-vertical-offset="522">
-              <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+            <state vertical-scroll-proportion="-1.2631578" vertical-offset="0" max-vertical-offset="522">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -112,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TekDaysTagLib.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TekDaysTagLib.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/taglib/com/tekdays/TekDaysTagLib.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.057591625" vertical-offset="1580" max-vertical-offset="1962">
-              <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="1962">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -127,6 +118,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.5" vertical-offset="46" max-vertical-offset="2700">
               <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.gsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.9122807" vertical-offset="269" max-vertical-offset="828">
+              <caret line="21" column="76" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -152,10 +153,10 @@
         <option value="$PROJECT_DIR$/grails-app/views/tekEvent/show.gsp" />
         <option value="dbtable:/d749b34/590c4f13-c669-4d02-bd40-8073b16b6d05/DEVDBNAME..tek_event" />
         <option value="dbtable:/d749b34/590c4f13-c669-4d02-bd40-8073b16b6d05/DEVDBNAME..tek_user" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/com/tekdays/TekUserController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/tekUser/signup.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/com/tekdays/TekEventController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/taglib/com/tekdays/TekDaysTagLib.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/com/tekdays/TekUserController.groovy" />
       </list>
     </option>
   </component>
@@ -535,7 +536,7 @@
       <option name="number" value="Default" />
       <updated>1458550281640</updated>
       <workItem from="1458550285950" duration="12618000" />
-      <workItem from="1458626201785" duration="14529000" />
+      <workItem from="1458626201785" duration="16837000" />
     </task>
     <task id="LOCAL-00001" summary="idea integration">
       <created>1458550569603</created>
@@ -547,7 +548,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27147000" />
+    <option name="totallyTimeSpent" value="29455000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -597,7 +598,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21434262" sideWeight="0.14320388" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2063745" sideWeight="0.14320388" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21434262" sideWeight="0.85679615" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -765,14 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="828">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/com/tekdays/TekUserController$_closure3.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9019074" vertical-offset="407" max-vertical-offset="846">
@@ -809,14 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2038835" vertical-offset="0" max-vertical-offset="618">
           <caret line="7" column="80" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10998308" vertical-offset="61" max-vertical-offset="1170">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -911,14 +896,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/tekUser/signup.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5" vertical-offset="46" max-vertical-offset="2700">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/d749b34/590c4f13-c669-4d02-bd40-8073b16b6d05/DEVDBNAME..tek_user">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="288">
@@ -930,26 +907,26 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/tekdays/TekEventController.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.12" vertical-offset="1888" max-vertical-offset="2232">
-          <caret line="112" column="43" selection-start-line="112" selection-start-column="43" selection-end-line="112" selection-end-column="43" />
+        <state vertical-scroll-proportion="-1.9122807" vertical-offset="269" max-vertical-offset="828">
+          <caret line="21" column="76" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="76" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/tekdays/TekUserController.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.88" vertical-offset="2396" max-vertical-offset="2988">
-          <caret line="151" column="51" selection-start-line="151" selection-start-column="51" selection-end-line="151" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.89411765" vertical-offset="110" max-vertical-offset="1170">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/com/tekdays/TekUser.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.736842" vertical-offset="0" max-vertical-offset="522">
-          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+        <state vertical-scroll-proportion="-1.2631578" vertical-offset="0" max-vertical-offset="522">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -957,10 +934,42 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/tekUser/signup.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5" vertical-offset="46" max-vertical-offset="2700">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/taglib/com/tekdays/TekDaysTagLib.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.057591625" vertical-offset="1580" max-vertical-offset="1962">
-          <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="1962">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/tekdays/TekUserController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.32" vertical-offset="664" max-vertical-offset="3240">
+          <caret line="54" column="65" selection-start-line="54" selection-start-column="65" selection-end-line="54" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/tekdays/SponsorController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.56" vertical-offset="192" max-vertical-offset="1944">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/tekdays/TekEventController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41569766" vertical-offset="1873" max-vertical-offset="2232">
+          <caret line="112" column="43" selection-start-line="112" selection-start-column="43" selection-end-line="112" selection-end-column="43" />
           <folding />
         </state>
       </provider>

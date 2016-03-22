@@ -43,13 +43,19 @@ class TekUserController {
 
     def edit(Long id) {
         def tekUserInstance = TekUser.get(id)
-        if (!tekUserInstance) {
-            flash.message = message(code: 'default.not.found.message', args: [message(code: 'tekUser.label', default: 'TekUser'), id])
-            redirect(action: "list")
-            return
+        if(tekUserInstance.id==session.user.id){
+            if (!tekUserInstance) {
+                flash.message = message(code: 'default.not.found.message', args: [message(code: 'tekUser.label', default: 'TekUser'), id])
+                redirect(action: "list")
+                return
+            }
+
+            [tekUserInstance: tekUserInstance]
+        }else{
+            flash.message="You cannot edit other peoples profile"
+            redirect(url: "/")
         }
 
-        [tekUserInstance: tekUserInstance]
     }
 
     def update(Long id, Long version) {
@@ -144,6 +150,14 @@ class TekUserController {
             redirect(uri: "/")
         }
 
+    }
+    def profile(){
+        if(session.user){
+            def user=session.user
+            user.attach()
+            user.merge()
+            redirect(action: "show",id:user.id)
+        }
     }
     def validateUserName(){
 
