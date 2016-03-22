@@ -5,9 +5,6 @@
 		<title>Login</title>
 	</head>
 	<body>
-		<g:if test="${flash.message}">
-			<div class="message">${flash.message}</div>
-		</g:if>
 		<g:form action="validate">
 			<table>
 				<tr class="prop">

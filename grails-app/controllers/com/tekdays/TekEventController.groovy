@@ -109,4 +109,10 @@ class TekEventController {
             [events : events]
         }
     }
+    def volunteer = {
+        def event = TekEvent.get(params.id)
+        event.addToVolunteers(session.user)
+        event.save()
+        render "Thank you for Volunteering"
+    }
 }

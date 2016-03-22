@@ -54,5 +54,6 @@ grails.project.dependency.resolution = {
         runtime ":database-migration:1.1"
 
         compile ':cache:1.0.0'
+        compile ":jquery-ui:1.8.24"
     }
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1078927964">
+  <component name="DataSourceManagerImpl" format="xml" hash="3476867767">
     <data-source source="LOCAL" name="TekDays dev" uuid="590c4f13-c669-4d02-bd40-8073b16b6d05">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
@@ -13,7 +13,11 @@
         <property name="characterSetResults" value="utf8" />
         <property name="yearIsDateType" value="false" />
       </driver-properties>
-      <libraries />
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/.grails/ivy-cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.20.jar</url>
+        </library>
+      </libraries>
     </data-source>
   </component>
 </project>

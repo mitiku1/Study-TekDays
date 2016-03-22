@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="dataSourceStorage">
   <data-source name="TekDays dev" uuid="590c4f13-c669-4d02-bd40-8073b16b6d05">
-    <database-info product="MySQL" version="5.5.47-0ubuntu0.14.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+    <database-info product="MySQL" version="5.5.47-0ubuntu0.14.04.1" jdbc-version="4.0" driver-name="MySQL-AB JDBC Driver" driver-version="mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw )">
       <extra-name-characters>#@</extra-name-characters>
       <identifier-quote-string>`</identifier-quote-string>
     </database-info>
@@ -28,8 +28,8 @@
       <primary-key name="PRIMARY" columns="id"/>
       <foreign-key name="FK369E105668765B70" columns="sponsor_id" ref-table="sponsor" ref-schema="" ref-catalog="DEVDBNAME" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
       <foreign-key name="FK369E1056993C8A4A" columns="event_id" ref-table="tek_event" ref-schema="" ref-catalog="DEVDBNAME" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
-      <index name="FK369E105668765B70" unique="false" columns="sponsor_id"/>
       <index name="FK369E1056993C8A4A" unique="false" columns="event_id"/>
+      <index name="FK369E105668765B70" unique="false" columns="sponsor_id"/>
     </table>
     <table name="task" schema="" catalog="DEVDBNAME" type="TABLE">
       <column name="id" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5" autoIncrement="true"/>
@@ -92,9 +92,9 @@
       <foreign-key name="FK96AFACE2993C8A4A" columns="event_id" ref-table="tek_event" ref-schema="" ref-catalog="DEVDBNAME" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
       <foreign-key name="FK96AFACE2B73A5B4A" columns="author_id" ref-table="tek_user" ref-schema="" ref-catalog="DEVDBNAME" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
       <exported-key name="FK96AFACE27F993A7" table="tek_message" schema="" catalog="DEVDBNAME" columns="parent_id"/>
-      <index name="FK96AFACE27F993A7" unique="false" columns="parent_id"/>
       <index name="FK96AFACE2993C8A4A" unique="false" columns="event_id"/>
       <index name="FK96AFACE2B73A5B4A" unique="false" columns="author_id"/>
+      <index name="FK96AFACE27F993A7" unique="false" columns="parent_id"/>
     </table>
     <table name="tek_user" schema="" catalog="DEVDBNAME" type="TABLE">
       <column name="id" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5" autoIncrement="true"/>

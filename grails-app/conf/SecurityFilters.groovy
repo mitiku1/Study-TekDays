@@ -5,7 +5,7 @@ class SecurityFilters {
 				if (!controllerName)
 					return true
 				def allowedActions = ['show', 'index', 'login',
-				'validate',"list","search","signup","register"]
+				'validate',"list","search","signup","register","validateUserName"]
 				if (!session.user && !allowedActions.contains(actionName)){
 					redirect(controller:'tekUser', action:'login',params:['cName': controllerName,
 					'aName':actionName])

@@ -14,10 +14,10 @@ class TekUser {
 	static searchable=true
 	static constraints = {
 		fullName(blank: false, minSize: 4,maxSize: 50)
-		userName(blank: false, minSize: 5,maxSize: 10)
+		userName(unique:true,blank: false, minSize: 5,maxSize: 10)
 		email(blank: false, email: true)
-		website(blank: false ,url: true)
-		bio maxSize:5000
+		website(nullable: true, blank: true ,url: true)
+		bio (maxSize:5000,nullable: true,blank: true)
 		password(blank: false,sminSize: 6,maxSize: 10)
 	}
 }

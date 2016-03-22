@@ -132,14 +132,11 @@ class TekUserController {
             [tekUserInstance: tekUserInstance]
 
     }
+
     def register={
         def tekUserInstance=new TekUser(params)
         if(!tekUserInstance.save(flush: true)){
 
-            if(tekUserInstance.hasErrors()){
-                flash.message=tekUserInstance.getErrors().allErrors
-
-            }
             render (view:"signup",model:[tekUserInstance: tekUserInstance])
         }else{
             session.user=tekUserInstance
@@ -147,5 +144,17 @@ class TekUserController {
             redirect(uri: "/")
         }
 
+    }
+    def validateUserName(){
+
+        if(params.userName){
+            if(TekUser.findByUserName(params.userName)){
+                render  "Username "+params.userName+" already taken"
+            }else{
+                render ""
+            }
+        }else{
+            render ""
+        }
     }
 }
